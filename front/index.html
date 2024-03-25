@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Divisão</title>
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport">
+    <link href="index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <main class="container">
+        <h1 class="title">Divisão</h1>
+        <form class="form" onsubmit="calc(event, this);">
+            <h2>Dados do Pedido</h2>
+            <a>Todos os campos são obrigatórios. Caso não tenha desconto ou adicional, preencha com zero.</a>
+            <br />
+            <h2>Item</h2>
+            <div class="row">
+                <div class="form_input">
+                    <input autofocus class="form_data" id="customer_1" maxlength="50" name="customer_1"
+                        placeholder="Digite o nome do cliente" type="text">
+                    <input autofocus class="form_data" id="description_1" maxlength="50" name="description_1"
+                        placeholder="Digite a descrição do item" type="text">
+                    <input autofocus class="form_data" id="value_1" maxlength="10" name="value_1"
+                        placeholder="Digite o valor do item" type="text">
+
+                </div>
+            </div>
+            <br />
+            <h2>Item</h2>
+            <div class="row">
+                <div class="form_input">
+                    <input autofocus class="form_data" id="customer_2" maxlength="50" name="customer_2"
+                        placeholder="Digite o nome do cliente" type="text">
+                    <input autofocus class="form_data" id="description_2" maxlength="50" name="description_2"
+                        placeholder="Digite a descrição do item" type="text">
+                    <input autofocus class="form_data" id="value_2" maxlength="10" name="value_2"
+                        placeholder="Digite o valor do item" type="text">
+                </div>
+            </div>
+            <br />
+            <h2>Item</h2>
+            <div class="row">
+                <div class="form_input">
+                    <input autofocus class="form_data" id="customer_3" maxlength="50" name="customer_3"
+                        placeholder="Digite o nome do cliente" type="text">
+                    <input autofocus class="form_data" id="description_3" maxlength="50" name="description_3"
+                        placeholder="Digite a descrição do item" type="text">
+                    <input autofocus class="form_data" id="value_3" maxlength="10" name="value_3"
+                        placeholder="Digite o valor do item" type="text">
+                </div>
+            </div>
+            <br />
+            <h2>Informações Gerais do Pedido</h2>
+            <div class="row">
+                <div class="form_input">
+                    <input autofocus class="form_data" id="delivery_tax" maxlength="10" name="delivery_tax"
+                        placeholder="Digite a taxa de entrega" type="text">
+                    <input autofocus class="form_data" id="discount" maxlength="10" name="discount"
+                        placeholder="Digite o valor do adicional" type="text">
+                    <input autofocus class="form_data" id="additional" maxlength="10" name="additional"
+                        placeholder="Digite o valor do adicional" type="text">
+                </div>
+            </div>
+            <br />
+            <div class="row has-alignCenter">
+                <button class="form.button" type="submit">Dividir</button>
+            </div>
+        </form>
+    </main>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
